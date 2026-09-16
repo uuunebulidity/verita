@@ -1,0 +1,15 @@
+///////////////////////////////////////////////////////////////////////
+/// Copyright (c) 1988-2022 $organization$
+///
+///   File: OS.cpp
+///
+/// Author: $author$
+///   Date: 11/1/2022
+///////////////////////////////////////////////////////////////////////
+#include "uLucidity/OS/OS.hpp"
+
+namespace uLucidity {
+namespace OS {
+
+} // namespace OS
+} // namespace uLucidity

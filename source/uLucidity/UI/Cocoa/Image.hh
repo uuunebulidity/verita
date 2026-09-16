@@ -1,0 +1,25 @@
+///////////////////////////////////////////////////////////////////////
+/// Copyright (c) 1988-2022 $organization$
+///
+///   File: Image.hh
+///
+/// Author: $author$
+///   Date: 11/1/2022
+///////////////////////////////////////////////////////////////////////
+#ifndef ULUCIDITY_UI_COCOA_IMAGE_HH
+#define ULUCIDITY_UI_COCOA_IMAGE_HH
+
+#include "uLucidity/UI/Cocoa/Cocoa.hh"
+
+///////////////////////////////////////////////////////////////////////
+/// Interface: Image
+///////////////////////////////////////////////////////////////////////
+@interface Image: NSImage {
+    }
+    @property (assign) NSSize pixelsSize;
+
+    - (Image*)initWithContentsOfFile:(NSString *)fileName;
+@end
+#endif // ULUCIDITY_UI_COCOA_IMAGE_HH 
+        
+
